@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>trawellinn</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Tapestry&family=Water+Brush&display=swap");
+    </style>
+    <style>
+        body {
+            color: rgb(15, 15, 6);
+            margin: 0px;
+            padding: 0px;
+            background: url("img/bg.jpg");
+
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            font-size: large;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+                sans-serif;
+        }
+
+        .first {
+            display: inline-block;
+            position: absolute;
+            left: 55px;
+            top: 20px;
+
+            /* border: 2px solid blue; */
+        }
+
+        .first img {
+            width: 150px;
+        }
+
+        .first div {
+            color: antiquewhite;
+            line-height: -23px;
+            font-size: 40px;
+            text-align: center;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        }
+
+        .center {
+            display: block;
+            width: 35%;
+            margin: 20px 30%;
+
+            /* border: 2px solid rgb(10, 10, 220); */
+        }
+
+        .navi li {
+            color: rgb(193, 221, 166);
+            display: inline-block;
+            font-size: 25px;
+            text-align: center;
+            /* padding: 3px 7px;
+        margin: 5px; */
+        }
+
+        .navi li a {
+            color: rgb(122, 238, 211);
+            text-decoration: none;
+            padding: 1px 1px;
+            margin: 23px;
+        }
+
+        .navi li a:hover {
+            text-decoration: underline;
+            color: rgb(80, 224, 88);
+        }
+
+        .continfo {
+            font-family: "Tapestry", cursive;
+
+            font-size: 15px;
+            color: rgb(215, 230, 168);
+            display: inline-block;
+            margin-top: 45px;
+            margin-left: 70%;
+            padding: 5px 3px;
+            /* border: 2px solid rgb(17, 17, 226); */
+        }
+
+        /* .inside{
+            display:block;
+            margin:1px;
+        } */
+
+        .feature {
+            /* color: rgb(231, 97, 160); */
+            display: block;
+            margin-top: 10px;
+            margin-left: 8%;
+            padding: 25px 25px;
+            width: 30%;
+            /* text-align: right; */
+
+            /* border: 2px solid rgb(4, 4, 242); */
+        }
+
+        .blocker {
+            /* border: 2px solid white; */
+            margin: 10px 8px;
+            padding: 7px;
+            width: 33%;
+            border-radius: 28px;
+            /* align-items: right; */
+        }
+
+        .fgroup input {
+            font-family: "Baloo Bhai", cursive;
+            text-align: center;
+            display: block;
+            width: 250px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .right {
+            /* float: inline; */
+            margin: 2px 80%;
+            padding: 4px;
+            width: 100px;
+            /* border: 2px solid rgb(9, 9, 245); */
+        }
+
+        .right .btn {
+            margin: 4px;
+        }
+
+        .blocker h1 {
+            text-align: center;
+        }
+
+        .blocker button {
+            display: block;
+            width: 84%;
+            margin: 20px auto;
+        }
+
+        .btn {
+            font-family: "Baloo Bhai", cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 10px;
+            border: 2px solid grey;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(173, 10, 10);
+        }
+
+        .nameslab {
+            color: rgb(22, 19, 21);
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            margin-left: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="first">
+            <img src="img/logo.jpg" alt="" />
+            <div>tr@WELLinn</div>
+        </div>
+
+        <div class="center">
+            <ul class="navi">
+                <li><a href="https://www.youtube.com/" target="blank">Home</a></li>
+                <li><a href="https://www.google.com/" target="blank">About Us</a></li>
+                <li><a href="https://www.facebook.com/" target="blank">Blogs</a></li>
+                <li>
+                    <a href="https://www.instagram.com/" target="blank">Populars</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="continfo">
+        <h1>
+            <div class="inside">
+                <ul>
+                    <b>Best offers!</b>
+                </ul>
+                <ul>
+                    <b>Amazing Destinations...</b>
+                </ul>
+            </div>
+        </h1>
+    </div>
+
+    <div class="feature">
+        <h1>Start your Journey Now!</h1>
+        <div class="blocker">
+            <form action="nospace.php">
+                <div class="fgroup">
+                    <input type="text" name="" placeholder="Enter Destination" />
+                </div>
+                <div class="fgroup">
+                    <input type="date" name="" placeholder="Date of travel" />
+                </div>
+                <div class="fgroup">
+                    <input type="number" name="" placeholder="Put in price" />
+                </div>
+                <button class="btn">Search Tours</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="right">
+        <button class="btn">Email</button>
+        <button class="btn">Facebook</button>
+    </div>
+    <!-- <footer class="nameslab">
+        <h2>
+            &copy; Rishabh k saini
+            @IIT KHARAGPUR 2022
+        </h2>
+    </footer> -->
+</body>
+
+</html>
